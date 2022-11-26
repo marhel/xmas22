@@ -14,78 +14,31 @@
   <body>
     <div class="reveal">
       <div class="slides">
-        <section>Slide 1</section>
-        <section data-background-gradient="radial-gradient(center, ellipse cover, #b72424 0%,#492727 100%)">Slide 2</section>
-        <section data-markdown>
-          <textarea data-template>
-            ## Slide 1
-            A paragraph with some text and a [link](http://hakim.se).
-            ---
-            ## Slide 2
-            ---
-            ## Slide 3
-          </textarea>
-        </section>
-        <section data-name="Brown" data-tag="nice">
-          <section data-tag="cats, small">Cat (brown, small, nice)</section>
-          <section data-tag="dogs">Dog (brown, nice)</section>
-          <section data-tag="dogs, big">Dog (brown, big, nice)</section>
-          <section data-tag="horses">Horse (brown, nice)</section>
-        </section>
-        <section data-name="Black &amp; white">
-          <section data-tag="cats">Cat (black &amp; white)</section>
-          <section data-tag="dogs, small">Dog (black &amp; white + small)</section>
-          <section data-tag="horses">Horse (black &amp; white)</section>
-        </section>
-        <!-- Example of nested vertical slides -->
-        <section>
-          <section>
-            <h2>Vertical Slides</h2>
-            <p>Slides can be nested inside of each other.</p>
-            <p>Use the <em>Space</em> key to navigate through all slides.</p>
-            <br>
-            <a href="#/2/1" class="navigate-down">
-              <img class="r-frame" style="background: rgba(255,255,255,0.1);" width="178" height="238" data-src="https://static.slid.es/reveal/arrow.png" alt="Down arrow">
-            </a>
-          </section>
-          <section>
-            <h2>Basement Level 1</h2>
-            <p>Nested slides are useful for adding additional detail underneath a high level horizontal slide.</p>
-          </section>
-          <section>
-            <h2>Basement Level 2</h2>
-            <p>That's it, time to go back up.</p>
-            <br>
-            <a href="#/2">
-              <img class="r-frame" style="background: rgba(255,255,255,0.1); transform: rotate(180deg);" width="178" height="238" data-src="https://static.slid.es/reveal/arrow.png" alt="Up arrow">
-            </a>
-          </section>
-        </section>
-
-        <section>
-          <h2>Slides</h2>
-          <p>
-            Not a coder? Not a problem. There's a fully-featured visual editor for authoring these, try it out at <a href="https://slides.com" target="_blank">https://slides.com</a>.
-          </p>
-        </section>
-
-        <section data-visibility="hidden">
-          <h2>Hidden Slides</h2>
-          <p>
-            This slide is visible in the source, but hidden when the presentation is viewed. You can show all hidden slides by setting the `showHiddenSlides` config option to `true`.
-          </p>
-        </section>
-        <section>
-          <h2>Slide 7</h2>
-          <p>This is a different page</p>
-        </section>
-        <section>Slide 8</section>
-        <section>Slide 9</section>
-        <section>Slide 10</section>
-        <section data-visibility="hidden">Slide 11</section>
-        <section data-visibility="hidden">Slide 12</section>
-        <section data-visibility="hidden">Slide 13</section>
-        <section data-visibility="hidden">Slide 14</section>
+        <section data-mandatory data-background-gradient="radial-gradient(#b72424 0%,#492727 100%)"><h2>Slide 2</h2><p>why does nothing SHOW?</p></section>
+        <section data-tag="dec24"><h2>Dec 24</h2><p>Ha en bra lördag!</p></section>
+        <section data-tag="dec23"><h2>Dec 23</h2><p>Ha en bra fredag!</p></section>
+        <section data-tag="dec22"><h2>Dec 22</h2><p>Ha en bra torsdag!</p></section>
+        <section data-tag="dec21"><h2>Dec 21</h2><p>Ha en bra onsdag!</p></section>
+        <section data-tag="dec20"><h2>Dec 20</h2><p>Ha en bra tisdag!</p></section>
+        <section data-tag="dec19"><h2>Dec 19</h2><p>Ha en bra måndag!</p></section>
+        <section data-tag="dec18"><h2>Dec 18</h2><p>Ha en bra söndag!</p></section>
+        <section data-tag="dec17"><h2>Dec 17</h2><p>Ha en bra lördag!</p></section>
+        <section data-tag="dec16"><h2>Dec 16</h2><p>Ha en bra fredag!</p></section>
+        <section data-tag="dec15"><h2>Dec 15</h2><p>Ha en bra torsdag!</p></section>
+        <section data-tag="dec14"><h2>Dec 14</h2><p>Ha en bra onsdag!</p></section>
+        <section data-tag="dec13"><h2>Dec 13</h2><p>Ha en bra tisdag!</p></section>
+        <section data-tag="dec12"><h2>Dec 12</h2><p>Ha en bra måndag!</p></section>
+        <section data-tag="dec11"><h2>Dec 11</h2><p>Ha en bra söndag!</p></section>
+        <section data-tag="dec10"><h2>Dec 10</h2><p>Ha en bra lördag!</p></section>
+        <section data-tag="dec9"><h2>Dec 9</h2><p>Ha en bra fredag!</p></section>
+        <section data-tag="dec8"><h2>Dec 8</h2><p>Ha en bra torsdag!</p></section>
+        <section data-tag="dec7"><h2>Dec 7</h2><p>Ha en bra onsdag!</p></section>
+        <section data-tag="dec6"><h2>Dec 6</h2><p>Ha en bra tisdag!</p></section>
+        <section data-tag="dec5"><h2>Dec 5</h2><p>Ha en bra måndag!</p></section>
+        <section data-tag="dec4"><h2>Dec 4</h2><p>Ha en bra söndag!</p></section>
+        <section data-tag="dec3"><h2>Dec 3</h2><p>Ha en bra lördag!</p></section>
+        <section data-tag="dec2"><h2>Dec 2</h2><p>Ha en bra fredag!</p></section>
+        <section data-tag="dec1"><h2>Dec 1</h2><p>Ha en bra torsdag!</p></section>
       </div>
     </div>
 
@@ -100,7 +53,36 @@
       // - https://revealjs.com/config/
       Reveal.initialize({
         hash: true,
-
+        tagteam: {
+            mandatorygroup: true,
+            groups: {
+              "52f51": {tags: ["dec1"]},
+              "82ed6": {tags: ["dec1", "dec2"]},
+              "f21a7": {tags: ["dec1", "dec2", "dec3"]},
+              "15fa9": {tags: ["dec1", "dec2", "dec3", "dec4"]},
+              "05d00": {tags: ["dec1", "dec2", "dec3", "dec4", "dec5"]},
+              "983eb": {tags: ["dec1", "dec2", "dec3", "dec4", "dec5", "dec6"]},
+              "6024b": {tags: ["dec1", "dec2", "dec3", "dec4", "dec5", "dec6", "dec7"]},
+              "0d3ea": {tags: ["dec1", "dec2", "dec3", "dec4", "dec5", "dec6", "dec7", "dec8"]},
+              "22c9d": {tags: ["dec1", "dec2", "dec3", "dec4", "dec5", "dec6", "dec7", "dec8", "dec9"]},
+              "712ac": {tags: ["dec1", "dec2", "dec3", "dec4", "dec5", "dec6", "dec7", "dec8", "dec9", "dec10"]},
+              "90ac8": {tags: ["dec1", "dec2", "dec3", "dec4", "dec5", "dec6", "dec7", "dec8", "dec9", "dec10", "dec11"]},
+              "f9c3e": {tags: ["dec1", "dec2", "dec3", "dec4", "dec5", "dec6", "dec7", "dec8", "dec9", "dec10", "dec11", "dec12"]},
+              "fb9f4": {tags: ["dec1", "dec2", "dec3", "dec4", "dec5", "dec6", "dec7", "dec8", "dec9", "dec10", "dec11", "dec12", "dec13"]},
+              "f7c4b": {tags: ["dec1", "dec2", "dec3", "dec4", "dec5", "dec6", "dec7", "dec8", "dec9", "dec10", "dec11", "dec12", "dec13", "dec14"]},
+              "52489": {tags: ["dec1", "dec2", "dec3", "dec4", "dec5", "dec6", "dec7", "dec8", "dec9", "dec10", "dec11", "dec12", "dec13", "dec14", "dec15"]},
+              "3adc8": {tags: ["dec1", "dec2", "dec3", "dec4", "dec5", "dec6", "dec7", "dec8", "dec9", "dec10", "dec11", "dec12", "dec13", "dec14", "dec15", "dec16"]},
+              "53e83": {tags: ["dec1", "dec2", "dec3", "dec4", "dec5", "dec6", "dec7", "dec8", "dec9", "dec10", "dec11", "dec12", "dec13", "dec14", "dec15", "dec16", "dec17"]},
+              "1b189": {tags: ["dec1", "dec2", "dec3", "dec4", "dec5", "dec6", "dec7", "dec8", "dec9", "dec10", "dec11", "dec12", "dec13", "dec14", "dec15", "dec16", "dec17", "dec18"]},
+              "63c04": {tags: ["dec1", "dec2", "dec3", "dec4", "dec5", "dec6", "dec7", "dec8", "dec9", "dec10", "dec11", "dec12", "dec13", "dec14", "dec15", "dec16", "dec17", "dec18", "dec19"]},
+              "3a362": {tags: ["dec1", "dec2", "dec3", "dec4", "dec5", "dec6", "dec7", "dec8", "dec9", "dec10", "dec11", "dec12", "dec13", "dec14", "dec15", "dec16", "dec17", "dec18", "dec19", "dec20"]},
+              "83cc5": {tags: ["dec1", "dec2", "dec3", "dec4", "dec5", "dec6", "dec7", "dec8", "dec9", "dec10", "dec11", "dec12", "dec13", "dec14", "dec15", "dec16", "dec17", "dec18", "dec19", "dec20", "dec21"]},
+              "85512": {tags: ["dec1", "dec2", "dec3", "dec4", "dec5", "dec6", "dec7", "dec8", "dec9", "dec10", "dec11", "dec12", "dec13", "dec14", "dec15", "dec16", "dec17", "dec18", "dec19", "dec20", "dec21", "dec22"]},
+              "d5c45": {tags: ["dec1", "dec2", "dec3", "dec4", "dec5", "dec6", "dec7", "dec8", "dec9", "dec10", "dec11", "dec12", "dec13", "dec14", "dec15", "dec16", "dec17", "dec18", "dec19", "dec20", "dec21", "dec22", "dec23"]},
+              "80caf": {tags: ["dec1", "dec2", "dec3", "dec4", "dec5", "dec6", "dec7", "dec8", "dec9", "dec10", "dec11", "dec12", "dec13", "dec14", "dec15", "dec16", "dec17", "dec18", "dec19", "dec20", "dec21", "dec22", "dec23", "dec24"]},
+              "tuttifrutti": {tags: ["dec1", "dec2", "dec3", "dec4", "dec5", "dec6", "dec7", "dec8", "dec9", "dec10", "dec11", "dec12", "dec13", "dec14", "dec15", "dec16", "dec17", "dec18", "dec19", "dec20", "dec21", "dec22", "dec23", "dec24"]}
+            }
+          },
         // Learn about plugins: https://revealjs.com/plugins/
         plugins: [RevealMarkdown, RevealNotes, Tagteam],
       });
