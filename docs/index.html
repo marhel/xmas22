@@ -27,6 +27,17 @@
             ## Slide 3
           </textarea>
         </section>
+        <section data-name="Brown" data-tag="nice">
+          <section data-tag="cats, small">Cat (brown, small, nice)</section>
+          <section data-tag="dogs">Dog (brown, nice)</section>
+          <section data-tag="dogs, big">Dog (brown, big, nice)</section>
+          <section data-tag="horses">Horse (brown, nice)</section>
+        </section>
+        <section data-name="Black &amp; white">
+          <section data-tag="cats">Cat (black &amp; white)</section>
+          <section data-tag="dogs, small">Dog (black &amp; white + small)</section>
+          <section data-tag="horses">Horse (black &amp; white)</section>
+        </section>
         <!-- Example of nested vertical slides -->
         <section>
           <section>
@@ -82,6 +93,7 @@
     <script src="assets/reveal.js/dist/reveal.js"></script>
     <script src="assets/reveal.js/plugin/notes/notes.js"></script>
     <script src="assets/reveal.js/plugin/markdown/markdown.js"></script>
+    <script src="assets/reveal.js/plugin/tagteam/tagteam.js"></script>
 
     <script>
       // More info about initialization & config:
@@ -91,7 +103,7 @@
         hash: true,
 
         // Learn about plugins: https://revealjs.com/plugins/
-        plugins: [RevealMarkdown, RevealNotes],
+        plugins: [RevealMarkdown, RevealNotes, Tagteam],
       });
     </script>
   </body>
