@@ -182,8 +182,10 @@
               hideItems(taggedSections, [], '');
               hideItems(namedSections, [], '');
             }
-            console.log("after", afterSections);
-            hideItems(afterSections, [true], 'after');
+            if(options.dateFilter) {
+              console.log("after", afterSections);
+              hideItems(afterSections, [true], 'after');
+            }
           } else if (!options.mandatorygroup) {
             if (taggedSections && tagsToShow) {
               var tagsToShowArray = arrayFromString(tagsToShow);
@@ -196,7 +198,7 @@
               debugLog("URL Names parameters: ".concat(JSON.stringify(namesToShowArray)));
               hideItems(namedSections, namesToShowArray, 'names');
             }
-            if (afterSections) {
+            if (afterSections && options.dateFilter) {
                 console.log("after", afterSections);
                 hideItems(afterSections, [true], 'after');
             }
@@ -228,6 +230,7 @@
       var init = function init(deck) {
         var defaultOptions = {
           debug: false,
+          datefilter: false,
           mandatorygroup: false,
           groups: {
             "pets": {

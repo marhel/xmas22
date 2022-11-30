@@ -5,6 +5,7 @@ Reveal.initialize({
   hash: true,
   tagteam: {
       mandatorygroup: true,
+      dateFilter: window.location.hostname != "allt.localhost",
       groups: {
         "52f51": {tags: ["dec01"]},
         "82ed6": {tags: ["dec01", "dec02"]},
